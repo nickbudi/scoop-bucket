@@ -1,0 +1,54 @@
+{
+    "homepage": "https://geeks3d.com/furmark/",
+    "license": "Freeware",
+    "version": "1.20.1.0",
+    "url": "https://www.geeks3d.com/downloads/2018/FurMark_1.20.1.0_Setup.exe",
+    "hash": "211ca2f6e7446e4470472935230ad8de0c4dbdf07efc1c7f0d68f0f016b0ede6",
+    "bin": [
+        [
+            "FurMark.exe",
+            "FurMark"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "FurMark.exe",
+            "FurMark"
+        ],
+        [
+            "gpuz.exe",
+            "GPU-Z"
+        ],
+        [
+            "gpushark.bat",
+            "GPU Shark"
+        ]
+    ],
+    "installer": {
+        "args": [
+            "/VERYSILENT",
+            "/DIR=\"$dir\"",
+            "/NOICONS",
+            "/TASKS=\"\"",
+            "/NORESTART"
+        ]
+    },
+    "uninstaller": {
+        "file": "unins000.exe",
+        "args": [
+            "/VERYSILENT",
+            "/NORESTART"
+        ]
+    },
+    "checkver": {
+        "url": "https://geeks3d.com/furmark/downloads/",
+        "re": "<b>Version ([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://www.geeks3d.com/downloads/2018/FurMark_$version_Setup.exe",
+        "hash": {
+            "url": "https://geeks3d.com/furmark/downloads/",
+            "find": "SHA256: ([a-fA-F0-9]{64})"
+        }
+    }
+}

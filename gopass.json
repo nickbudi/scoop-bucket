@@ -1,0 +1,41 @@
+{
+    "homepage": "https://www.gopass.pw/",
+    "version": "1.8.2",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/gopasspw/gopass/releases/download/v1.8.2/gopass-1.8.2-windows-amd64.zip",
+            "hash": "b71369502eb3fd07a14333a99ad38121f4e47c990759de525206be486b7fa262",
+            "extract_dir": "gopass-1.8.2-windows-amd64"
+        },
+        "32bit": {
+            "url": "https://github.com/gopasspw/gopass/releases/download/v1.8.2/gopass-1.8.2-windows-386.zip",
+            "hash": "aa90844b9bdaabcd9ff9d3b02f1a8911d9d3265bf1f764efa4761c749d8d90bb",
+            "extract_dir": "gopass-1.8.2-windows-386"
+        }
+    },
+    "bin": "gopass.exe",
+    "checkver": {
+        "github": "https://github.com/gopasspw/gopass"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/gopasspw/gopass/releases/download/v$version/gopass-$version-windows-amd64.zip",
+                "hash": {
+                    "url": "https://github.com/gopasspw/gopass/releases/download/v$version/gopass_$version_SHA256SUMS",
+                    "find": "([a-fA-F0-9]{64})\\s+gopass-$version-windows-amd64.zip"
+                },
+                "extract_dir": "gopass-$version-windows-amd64"
+            },
+            "32bit": {
+                "url": "https://github.com/gopasspw/gopass/releases/download/v$version/gopass-$version-windows-386.zip",
+                "hash": {
+                    "url": "https://github.com/gopasspw/gopass/releases/download/v$version/gopass_$version_SHA256SUMS",
+                    "find": "([a-fA-F0-9]{64})\\s+gopass-$version-windows-386.zip"
+                },
+                "extract_dir": "gopass-$version-windows-386"
+            }
+        }
+    }
+}

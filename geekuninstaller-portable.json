@@ -1,0 +1,38 @@
+{
+    "homepage": "https://geekuninstaller.com/",
+    "version": "1.4.5.126",
+    "license": "Free for personnal use only",
+    "url": "https://portableapps.duckduckgo.com/GeekUninstallerPortable_1.4.5.126.paf.exe#/dl.7z",
+    "hash": "md5:43f1fe75e1d7db4bb41c0c6dd7392432",
+    "bin": [
+        [
+            "GeekUninstallerPortable.exe",
+            "GeekUninstaller"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "GeekUninstallerPortable.exe",
+            "GeekUninstaller"
+        ]
+    ],
+    "persist": "Data",
+    "post_install": [
+        "Remove-Item -LiteralPath \"$dir\\`$PLUGINSDIR\" -Force -Recurse",
+        "if(!(test-path \"$dir\\FirefoxPortable.ini\")) {",
+        "   Copy-Item \"$dir\\Other\\Source\\AppNamePortable.ini\" \"$dir\\GeekUninstallerPortable.ini\"",
+        "   (Get-Content \"$dir\\GeekUninstallerPortable.ini\").replace('DisableSplashScreen=false', 'DisableSplashScreen=true') | Set-Content \"$dir\\GeekUninstallerPortable.ini\"",
+        "}"
+    ],
+    "checkver": {
+        "url": "https://portableapps.com/apps/utilities/geekuninstaller-portable",
+        "re": "Version ([\\d.]+) for Windows"
+    },
+    "autoupdate": {
+        "url": "https://portableapps.duckduckgo.com/GeekUninstallerPortable_$version.paf.exe#/dl.7z",
+        "hash": {
+            "url": "https://portableapps.com/apps/utilities/geekuninstaller-portable",
+            "find": "MD5 Hash</strong>: ([a-fA-F0-9]{32})"
+        }
+    }
+}

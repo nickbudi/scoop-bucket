@@ -1,0 +1,38 @@
+{
+    "homepage": "https://wiki.mumble.info/wiki/Main_Page",
+    "license": "BSD-3-Clause",
+    "version": "1.2.19_Rev_2",
+    "url": "https://sourceforge.net/projects/portableapps/files/Mumble%20Portable/MumblePortable_1.2.19_Rev_2.paf.exe#/dl.7z",
+    "hash": "md5:4027749e11d4f87fe2bad7d4a0b9283a",
+    "bin": [
+        [
+            "MumblePortable.exe",
+            "mumble"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "MumblePortable.exe",
+            "Mumble"
+        ]
+    ],
+    "persist": "Data",
+    "post_install": [
+        "Remove-Item -LiteralPath \"$dir\\`$PLUGINSDIR\" -Force -Recurse",
+        "if(!(test-path \"$dir\\MumblePortable.ini\")) {",
+        "   Copy-Item \"$dir\\Other\\Source\\AppNamePortable.ini\" \"$dir\\MumblePortable.ini\"",
+        "   (Get-Content \"$dir\\MumblePortable.ini\").replace('DisableSplashScreen=false', 'DisableSplashScreen=true') | Set-Content \"$dir\\MumblePortable.ini\"",
+        "}"
+    ],
+    "checkver": {
+        "url": "https://sourceforge.net/projects/portableapps/rss?path=/Mumble%20Portable",
+        "re": "/Mumble Portable/MumblePortable_([\\d.]+(?:_Rev_[\\d.])?).paf.exe]]>"
+    },
+    "autoupdate": {
+        "url": "https://sourceforge.net/projects/portableapps/files/Mumble%20Portable/MumblePortable_$version.paf.exe#/dl.7z",
+        "hash": {
+            "url": "https://portableapps.com/apps/internet/mumble-portable",
+            "find": "MD5 Hash</strong>: ([a-fA-F0-9]{32})"
+        }
+    }
+}
