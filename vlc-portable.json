@@ -1,9 +1,9 @@
 {
     "homepage": "https://www.videolan.org/",
-    "version": "3.0.3",
+    "version": "3.0.4",
     "license": "GPL-2.0-only",
-    "url": "https://sourceforge.net/projects/portableapps/files/VLC%20Media%20Player%20Portable/VLCPortable_3.0.3.paf.exe#/dl.7z",
-    "hash": "md5:87a4bfb413c76ea93691f687bead3ed6",
+    "url": "https://sourceforge.net/projects/portableapps/files/VLC%20Media%20Player%20Portable/VLCPortable_3.0.4.paf.exe#/dl.7z",
+    "hash": "md5:d87f384bf2a561d7cc4b1cd415cbe72b",
     "bin": [
         [
             "VLCPortable.exe",
