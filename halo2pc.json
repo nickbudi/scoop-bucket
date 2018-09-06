@@ -1,5 +1,4 @@
 {
-    "##": "Full game + Project Cartographer mod",
     "##": "The (outdated?) source code for the NSIS installer is at https://github.com/bigtweekx/h2pc_installer",
     "homepage": "https://cartographer.online/",
     "version": "0.4.0.4",
@@ -27,14 +26,17 @@
         "re": "<h3>Release: v([\\d.]+)"
     },
     "autoupdate": {
-        "url": "http://www.h2pcmt.com/Cartographer/Installer/h2pc_installer.zip"
+        "url": "http://www.h2pcmt.com/Cartographer/Installer/h2pc_installer.zip",
+        "hash": {
+            "url": "$baseurl/checksums/h2pc_installer.zip.sha256"
+        }
     },
     "notes": [
-      "The following dependencies were also installed (if missing):",
-      "- DirectX 9.0C",
-      "- Microsoft Visual C++ 2013 Redistributable (x86) - 12.0.40660",
-      "and will not be uninstalled when running scoop uninstall",
-      "",
-      "Windows 10 users should disable fullscreen optimizations for halo2.exe and run it in compatibility mode for Vista (Service Pack 2)"
-  ]
+        "The following dependencies were also installed (if missing):",
+        "- DirectX 9.0C",
+        "- Microsoft Visual C++ 2013 Redistributable (x86) - 12.0.40660",
+        "and will not be uninstalled when running scoop uninstall",
+        "",
+        "Windows 10 users should disable fullscreen optimizations for halo2.exe and run it in compatibility mode for Vista (Service Pack 2)"
+    ]
 }
