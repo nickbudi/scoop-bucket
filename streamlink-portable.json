@@ -1,0 +1,16 @@
+{
+    "homepage": "https://streamlink.github.io/",
+    "version": "0.14.2",
+    "license": "BSD-2-Clause",
+    "url": "https://github.com/streamlink/streamlink-portable/releases/download/Stable_v0.14.2/Streamlink_for_Windows_Portable_v0.14.2.zip",
+    "hash": "da400d3b333bdd7de123e3573f48ecaf6a5cd7594f0c61ed6682b95644c008c4",
+    "persist": "streamlinkrc",
+    "bin": "Streamlink.exe",
+    "checkver": {
+        "url": "https://github.com/streamlink/streamlink-portable/releases/latest",
+        "re": "/releases/tag/Stable_v([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://github.com/streamlink/streamlink-portable/releases/download/Stable_v$version/Streamlink_for_Windows_Portable_v$version.zip"
+    }
+}
