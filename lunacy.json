@@ -25,7 +25,7 @@
         ]
     ],
     "checkver": {
-        "url": "https://docs.icons8.com/release-notes",
+        "url": "https://docs.icons8.com/release-notes/",
         "re": "<h2 id=\"[\\d]+\">(?<version>[\\d.]+)</h2>"
     },
     "autoupdate": {
