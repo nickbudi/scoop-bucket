@@ -1,6 +1,7 @@
 {
     "##": "The (outdated?) source code for the NSIS installer is at https://github.com/bigtweekx/h2pc_installer",
     "homepage": "https://cartographer.online/",
+    "description": "Full Halo 2 Vista game + Project Cartographer mod (2.8GB download, 4.8GB extracted)",
     "version": "0.4.0.4",
     "url": "http://www.h2pcmt.com/Cartographer/Installer/h2pc_installer.zip",
     "hash": "6bbbb099753aa713f3a7c7fe8155014c9843946801f3faa32eb9ec95e28117d6",
