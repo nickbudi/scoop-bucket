@@ -13,7 +13,7 @@
         ]
     ],
     "pre_install": [
-        "7z x \"$dir\\h2pc_data.bin\" -o\"$dir\\\"",
+        "extract_7zip \"$dir\\h2pc_data.bin\" -o\"$dir\"",
         "\"$dir\\temp\\vcredist_2013_x86.exe /q /norestart\"",
         "\"$dir\\temp\\directx.exe /q /T:'$dir\\temp\\directx'\"",
         "\"$dir\\temp\\directx\\DXSETUP.exe /silent\"",
