@@ -23,6 +23,6 @@ on_success:
       $result = $(git diff --name-only --cached)
       ForEach ($line in $($result -split "`r`n")) {
         $json = (Get-Content $line -Raw) | ConvertFrom-Json
-        git commit -m "$([System.IO.Path]::GetFileNameWithoutExtension("$line")): Update to version $($json.version) (AppVeyor build: $($env:APPVEYOR_BUILD_NUMBER))" $line
+        git commit -m "$([System.IO.Path]::GetFileNameWithoutExtension("$line")): Update to version $($json.version)" $line
       }
   - git push
