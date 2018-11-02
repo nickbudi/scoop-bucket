@@ -4,12 +4,7 @@
     "version": "1.20.1.0",
     "url": "https://www.geeks3d.com/downloads/2018/FurMark_1.20.1.0_Setup.exe",
     "hash": "211ca2f6e7446e4470472935230ad8de0c4dbdf07efc1c7f0d68f0f016b0ede6",
-    "bin": [
-        [
-            "FurMark.exe",
-            "FurMark"
-        ]
-    ],
+    "bin": "FurMark.exe",
     "shortcuts": [
         [
             "FurMark.exe",

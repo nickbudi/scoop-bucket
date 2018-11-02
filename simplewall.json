@@ -12,12 +12,7 @@
             "extract_dir": "simplewall/32"
         }
     },
-    "bin": [
-        [
-            "simplewall.exe",
-            "simplewall"
-        ]
-    ],
+    "bin": "simplewall.exe",
     "shortcuts": [
         [
             "simplewall.exe",
