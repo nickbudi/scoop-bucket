@@ -1,6 +1,9 @@
 {
     "homepage": "https://icons8.com/lunacy",
-    "license": "https://www.mersenne.org/legal/#EULA",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://icons8.com/privacy-policy/"
+    },
     "version": "3.12",
     "url": "https://desktop.icons8.com/lunacy/LunacyPortable_3.12.zip",
     "hash": "111d80af47ad405e99fa510c25c988f10e438e442708303119cb04e7b4e4ff8f",
