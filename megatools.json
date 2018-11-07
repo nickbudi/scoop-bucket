@@ -1,5 +1,6 @@
 {
     "homepage": "https://megatools.megous.com",
+    "description": "Command line tools for accessing Mega.nz cloud storage",
     "version": "1.10.2",
     "license": "GPL-2.0",
     "architecture": {

@@ -1,5 +1,6 @@
 {
     "homepage": "https://streamlink.github.io/",
+    "description": "A command-line utility that pipes video streams from various services into a video player",
     "version": "0.14.2",
     "license": "BSD-2-Clause",
     "url": "https://github.com/streamlink/streamlink-portable/releases/download/Stable_v0.14.2/Streamlink_for_Windows_Portable_v0.14.2.zip",
