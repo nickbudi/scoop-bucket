@@ -1,8 +1,8 @@
 {
     "homepage": "https://www.piriform.com/ccleaner",
-    "version": "5.49.6856",
+    "version": "5.50.6911",
     "url": "https://www.piriform.com/ccleaner/download/portable/downloadfile#/dl.7z",
-    "hash": "3ac2f7236c0f0f0b999939cd336e531ecd6abe3c14074e1bf0215d4b9e5c0a76",
+    "hash": "566b798e3e096baaef95369b35b0b5c9c984d04117d9b393588b1efdfcb46b8e",
     "architecture": {
         "64bit": {
             "bin": [
@@ -19,9 +19,7 @@
             ]
         },
         "32bit": {
-            "bin": [
-                "CCleaner.exe"
-            ],
+            "bin": "CCleaner.exe",
             "shortcuts": [
                 [
                     "CCleaner.exe",
@@ -31,9 +29,7 @@
         }
     },
     "persist": "ccleaner.ini",
-    "pre_install": [
-        "if(!(test-path \"$dir\\ccleaner.ini\")) { Add-Content \"$dir\\ccleaner.ini\" $null }"
-    ],
+    "pre_install": "if(!(test-path \"$dir\\ccleaner.ini\")) { Add-Content \"$dir\\ccleaner.ini\" $null }",
     "checkver": {
         "url": "https://www.piriform.com/ccleaner/download",
         "re": "<strong>v([\\d.]+)</strong>"
