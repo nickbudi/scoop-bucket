@@ -1,10 +1,10 @@
 {
     "homepage": "https://streamlink.github.io/",
     "description": "A command-line utility that pipes video streams from various services into a video player",
-    "version": "0.14.2",
+    "version": "1.0.0",
     "license": "BSD-2-Clause",
-    "url": "https://github.com/streamlink/streamlink-portable/releases/download/Stable_v0.14.2/Streamlink_for_Windows_Portable_v0.14.2.zip",
-    "hash": "da400d3b333bdd7de123e3573f48ecaf6a5cd7594f0c61ed6682b95644c008c4",
+    "url": "https://github.com/streamlink/streamlink-portable/releases/download/Stable_v1.0.0/Streamlink_for_Windows_Portable_v1.0.0.zip",
+    "hash": "88c7c4c8bf39f361fde535fc2c3ed0c53d337f20cec3c61da2a10f3877208173",
     "persist": "streamlinkrc",
     "bin": "Streamlink.exe",
     "checkver": {
