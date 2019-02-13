@@ -1,9 +1,10 @@
 {
     "homepage": "https://geeks3d.com/furmark/",
-    "version": "1.20.2.0",
+    "version": "1.20.4.0",
     "license": "Freeware",
-    "url": "https://www.geeks3d.com/downloads/2018/FurMark_1.20.2.0_Setup.exe",
-    "hash": "2d6db2c090b8074ee60c0ac1ee6d9a5b2428c4f96d27591dcfd65a861ac6c50f",
+    "url": "https://www.geeks3d.com/downloads/2019/FurMark_1.20.4.0_Setup.exe",
+    "hash": "9629289709144ed5cb7b00902f6654c24553cd721a60b9f233474fcb2bf3722a",
+    "innosetup": true,
     "bin": "FurMark.exe",
     "shortcuts": [
         [
@@ -19,28 +20,12 @@
             "GPU Shark"
         ]
     ],
-    "installer": {
-        "args": [
-            "/VERYSILENT",
-            "/DIR=\"$dir\"",
-            "/NOICONS",
-            "/TASKS=\"\"",
-            "/NORESTART"
-        ]
-    },
-    "uninstaller": {
-        "file": "unins000.exe",
-        "args": [
-            "/VERYSILENT",
-            "/NORESTART"
-        ]
-    },
     "checkver": {
         "url": "https://geeks3d.com/furmark/downloads/",
-        "re": "<b>Version ([\\d.]+)"
+        "re": "<b>Version ([\\d.]+) - (?<year>\\d{4})"
     },
     "autoupdate": {
-        "url": "https://www.geeks3d.com/downloads/2018/FurMark_$version_Setup.exe",
+        "url": "https://www.geeks3d.com/downloads/$matchYear/FurMark_$version_Setup.exe",
         "hash": {
             "url": "https://geeks3d.com/furmark/downloads/",
             "find": "SHA256: ([a-fA-F0-9]{64})"
