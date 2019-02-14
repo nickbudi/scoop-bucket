@@ -2,7 +2,7 @@
     "homepage": "https://www.mozilla.org/en-US/firefox/new/",
     "version": "65.0.1",
     "url": "https://sourceforge.net/projects/portableapps/files/Mozilla%20Firefox%2C%20Portable%20Ed./Mozilla%20Firefox%2C%20Portable%20Edition%2065.0.1/FirefoxPortable_65.0.1_English.paf.exe#/dl.7z",
-    "hash": "md5:807842da560d0ae2ce20c5a4abd7039e",
+    "hash": "md5:acb5de13c497d3b4a52cba6b89ddf05d",
     "bin": [
         [
             "FirefoxPortable.exe",
@@ -28,10 +28,6 @@
         "re": "FirefoxPortable_([\\d.]+)_English.paf.exe]]>"
     },
     "autoupdate": {
-        "url": "https://sourceforge.net/projects/portableapps/files/Mozilla%20Firefox%2C%20Portable%20Ed./Mozilla%20Firefox%2C%20Portable%20Edition%20$version/FirefoxPortable_$version_English.paf.exe#/dl.7z",
-        "hash": {
-            "url": "https://portableapps.com/apps/internet/firefox_portable",
-            "find": "MD5 Hash</strong>: ([a-fA-F0-9]{32})"
-        }
+        "url": "https://sourceforge.net/projects/portableapps/files/Mozilla%20Firefox%2C%20Portable%20Ed./Mozilla%20Firefox%2C%20Portable%20Edition%20$version/FirefoxPortable_$version_English.paf.exe#/dl.7z"
     }
 }
