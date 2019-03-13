@@ -1,8 +1,8 @@
 {
     "homepage": "https://www.piriform.com/ccleaner",
-    "version": "5.54.7088",
+    "version": "5.55.7108",
     "url": "https://www.piriform.com/ccleaner/download/portable/downloadfile#/dl.7z",
-    "hash": "09d8214be1cf9e773426624a828f46b856b0dcc249e78810217630d3f50f25f5",
+    "hash": "91776fd5f2028a4e7793bcb0392bc574582f88133f800029f047be92ee7c359b",
     "architecture": {
         "64bit": {
             "bin": [
