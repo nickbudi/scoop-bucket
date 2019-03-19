@@ -2,8 +2,8 @@
     "homepage": "https://geekuninstaller.com/",
     "version": "1.4.5.132",
     "license": "Free for personnal use only",
-    "url": "http://download3.portableapps.com/portableapps/GeekUninstallerPortable/GeekUninstallerPortable_1.4.5.132.paf.exe#/dl.7z",
-    "hash": "c2cdaba3acb6b90402bc05a705b2250d6d5973107bc6838878b2d7e442e161c7",
+    "url": "https://download3.portableapps.com/portableapps/GeekUninstallerPortable/GeekUninstallerPortable_1.4.5.132.paf.exe#/dl.7z",
+    "hash": "25414f621aa73ab4cdbb9121b62ce5b18b8a5f959ffeeb6b91ddedfcbeeb1b7d",
     "bin": [
         [
             "GeekUninstallerPortable.exe",
@@ -29,6 +29,6 @@
         "re": "Version ([\\d.]+) for Windows"
     },
     "autoupdate": {
-        "url": "http://download3.portableapps.com/portableapps/GeekUninstallerPortable/GeekUninstallerPortable_$version.paf.exe#/dl.7z"
+        "url": "https://download3.portableapps.com/portableapps/GeekUninstallerPortable/GeekUninstallerPortable_$version.paf.exe#/dl.7z"
     }
 }
