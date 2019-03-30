@@ -9,13 +9,13 @@
   "url": "https://launcher.mojang.com/download/Minecraft.exe",
   "hash": "a76c2c056fc762f875471d1d49c108ecf23939b9abde5f38b59529af250469ef",
   "pre_install": [
-    "'START \"\" Minecraft.exe --workDir data' | Set-Content -force \"$dir\\MinecraftPortable.bat\"",
-    "if (!(Test-Path \"$persist_dir\\data\")) {",
-    "    New-Item \"$dir\\data\" -Type Directory -Force",
-    "}"
+      "'START \"\" Minecraft.exe --workDir data' | Set-Content -force \"$dir\\MinecraftPortable.bat\"",
+      "if (!(Test-Path \"$persist_dir\\data\")) {",
+      "    New-Item \"$dir\\data\" -Type Directory -Force",
+      "}"
   ],
   "persist": [
-    "data"
+      "data"
   ],
   "shortcuts": [
       [
@@ -25,7 +25,7 @@
       ]
   ],
   "notes": [
-    "Do not run Minecraft.exe",
-    "Use the start menu shortcut or MinecraftPortable.bat instead to load the persistent directory (data) properly"
+      "Do not run Minecraft.exe",
+      "Use the start menu shortcut or MinecraftPortable.bat instead to load the persistent directory (data) properly"
   ]
 }
