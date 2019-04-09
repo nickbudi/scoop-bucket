@@ -29,10 +29,6 @@
         "re": "/VLC Media Player Portable/VLCPortable_([\\d.]+(?:_Rev_[\\d.])?).paf.exe]]>"
     },
     "autoupdate": {
-        "url": "https://sourceforge.net/projects/portableapps/files/VLC%20Media%20Player%20Portable/VLCPortable_$version.paf.exe#/dl.7z",
-        "hash": {
-            "url": "https://portableapps.com/apps/music_video/vlc_portable",
-            "find": "MD5 Hash</strong>: ([a-fA-F0-9]{32})"
-        }
+        "url": "https://sourceforge.net/projects/portableapps/files/VLC%20Media%20Player%20Portable/VLCPortable_$version.paf.exe#/dl.7z"
     }
 }

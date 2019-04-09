@@ -29,10 +29,6 @@
         "re": "/Mumble Portable/MumblePortable_([\\d.]+(?:_Rev_[\\d.])?).paf.exe]]>"
     },
     "autoupdate": {
-        "url": "https://sourceforge.net/projects/portableapps/files/Mumble%20Portable/MumblePortable_$version.paf.exe#/dl.7z",
-        "hash": {
-            "url": "https://portableapps.com/apps/internet/mumble-portable",
-            "find": "MD5 Hash</strong>: ([a-fA-F0-9]{32})"
-        }
+        "url": "https://sourceforge.net/projects/portableapps/files/Mumble%20Portable/MumblePortable_$version.paf.exe#/dl.7z"
     }
 }

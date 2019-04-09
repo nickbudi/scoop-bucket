@@ -28,10 +28,6 @@
         "re": "/CrystalDiskMark Portable/CrystalDiskMarkPortable_([\\d.]+(?:[a-z])?(?:_Rev_[\\d.])?).paf.exe]]>"
     },
     "autoupdate": {
-        "url": "https://sourceforge.net/projects/portableapps/files/CrystalDiskMark%20Portable/CrystalDiskMarkPortable_$version.paf.exe#/dl.7z",
-        "hash": {
-            "url": "https://portableapps.com/apps/utilities/crystaldiskmark_portable",
-            "find": "MD5 Hash</strong>: ([a-fA-F0-9]{32})"
-        }
+        "url": "https://sourceforge.net/projects/portableapps/files/CrystalDiskMark%20Portable/CrystalDiskMarkPortable_$version.paf.exe#/dl.7z"
     }
 }

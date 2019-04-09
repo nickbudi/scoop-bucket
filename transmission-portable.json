@@ -29,10 +29,6 @@
         "re": "/Transmission Portable/TransmissionPortable_([\\d.]+(?:_Rev_[\\d.])?).paf.exe]]>"
     },
     "autoupdate": {
-        "url": "https://sourceforge.net/projects/portableapps/files/Transmission%20Portable/TransmissionPortable_$version.paf.exe#/dl.7z",
-        "hash": {
-            "url": "https://portableapps.com/apps/internet/transmission-portable",
-            "find": "MD5 Hash</strong>: ([a-fA-F0-9]{32})"
-        }
+        "url": "https://sourceforge.net/projects/portableapps/files/Transmission%20Portable/TransmissionPortable_$version.paf.exe#/dl.7z"
     }
 }

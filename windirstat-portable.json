@@ -29,10 +29,6 @@
         "re": "/WinDirStat Portable/WinDirStatPortable_([\\d.]+(?:_Rev_[\\d.])?).paf.exe]]>"
     },
     "autoupdate": {
-        "url": "https://sourceforge.net/projects/portableapps/files/WinDirStat%20Portable/WinDirStatPortable_$version.paf.exe#/dl.7z",
-        "hash": {
-            "url": "https://portableapps.com/apps/utilities/windirstat_portable",
-            "find": "MD5 Hash</strong>: ([a-fA-F0-9]{32})"
-        }
+        "url": "https://sourceforge.net/projects/portableapps/files/WinDirStat%20Portable/WinDirStatPortable_$version.paf.exe#/dl.7z"
     }
 }
