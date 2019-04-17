@@ -1,5 +1,5 @@
 {
-    "homepage": "https://play.google.com/music/listen?u=0#/manager",
+    "homepage": "https://play.google.com/music/listen#/manager",
     "description": "Use Google Play Music Manager to upload your favorite songs from your computer to your Google Play library",
     "version": "nightly",
     "license": {
