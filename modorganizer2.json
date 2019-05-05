@@ -2,9 +2,9 @@
     "homepage": "https://www.nexusmods.com/skyrimspecialedition/mods/6194",
     "description": "Mod Organizer 2 is a mod management tool for Bethesda games",
     "license": "GPL-3.0-only",
-    "version": "2.1.6",
-    "url": "https://github.com/ModOrganizer2/modorganizer/releases/download/v2.1.6/Mod.Organizer.2.1.6.7z",
-    "hash": "bfe7f20b1595db4c646ba495e9b1889a56e9dbba37858d2fa044b661600ce938",
+    "version": "2.2.0",
+    "url": "https://github.com/ModOrganizer2/modorganizer/releases/download/v2.2.0/Mod.Organizer.2.2.0.7z",
+    "hash": "ad785184a2ca9a40198801b4d937afbcb08947265656fb48b12c57c2beb98781",
     "shortcuts": [
         [
             "ModOrganizer.exe",
