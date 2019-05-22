@@ -1,8 +1,8 @@
 {
     "homepage": "https://www.mozilla.org/en-US/firefox/new/",
-    "version": "66.0.5",
-    "url": "https://sourceforge.net/projects/portableapps/files/Mozilla%20Firefox%2C%20Portable%20Ed./Mozilla%20Firefox%2C%20Portable%20Edition%2066.0.5/FirefoxPortable_66.0.5_English.paf.exe#/dl.7z",
-    "hash": "sha1:e7b7343153d7afbd0040f24c26487d4e581c0578",
+    "version": "67.0",
+    "url": "https://sourceforge.net/projects/portableapps/files/Mozilla%20Firefox%2C%20Portable%20Ed./Mozilla%20Firefox%2C%20Portable%20Edition%2067.0/FirefoxPortable_67.0_English.paf.exe#/dl.7z",
+    "hash": "sha1:de377a61a403fdf3524f9602ab5e291029d7ad4d",
     "bin": [
         [
             "FirefoxPortable.exe",
