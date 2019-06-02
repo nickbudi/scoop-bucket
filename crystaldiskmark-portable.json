@@ -1,8 +1,8 @@
 {
     "homepage": "http://crystalmark.info/en/software/crystaldiskmark/",
-    "version": "6.0.1",
-    "url": "https://sourceforge.net/projects/portableapps/files/CrystalDiskMark%20Portable/CrystalDiskMarkPortable_6.0.1.paf.exe#/dl.7z",
-    "hash": "md5:edb49650b286f755b68075f176fe5494",
+    "version": "6.0.2",
+    "url": "https://sourceforge.net/projects/portableapps/files/CrystalDiskMark%20Portable/CrystalDiskMarkPortable_6.0.2.paf.exe#/dl.7z",
+    "hash": "sha1:4fbb837b7fdb2e60ae820a24ba7b894e546137ed",
     "bin": [
         [
             "CrystalDiskMarkPortable.exe",
