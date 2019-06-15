@@ -1,11 +1,11 @@
 {
     "homepage": "https://obsproject.com/",
     "license": "GPL-2.0-only",
-    "version": "23.0.2",
+    "version": "23.2.1",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/obsproject/obs-studio/releases/download/23.0.2/OBS-Studio-23.0.2-Full-x64.zip",
-            "hash": "6ddbab4a53349034801c4f46d41f31548c4f301f73d1573c427b0724cec41e36",
+            "url": "https://github.com/obsproject/obs-studio/releases/download/23.2.1/OBS-Studio-23.2.1-Full-x64.zip",
+            "hash": "5d3e7ff2e7a4248c9d9d786714f984684797052278bd93044dcf878610eef8b6",
             "shortcuts": [
                 [
                     "bin\\64bit\\obs64.exe",
@@ -14,8 +14,8 @@
             ]
         },
         "32bit": {
-            "url": "https://github.com/obsproject/obs-studio/releases/download/23.0.2/OBS-Studio-23.0.2-Full-x86.zip",
-            "hash": "58e924d4ea40ce18f826e605c4cdd05d3a072f64be51a75ab8dae1fc58153788",
+            "url": "https://github.com/obsproject/obs-studio/releases/download/23.2.1/OBS-Studio-23.2.1-Full-x86.zip",
+            "hash": "0d2d00acfc30734696af72cb64fd43ef44254452062aabe305d01c1b8cc620ad",
             "shortcuts": [
                 [
                     "bin\\32bit\\obs32.exe",
