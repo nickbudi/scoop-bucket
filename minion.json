@@ -27,7 +27,11 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://cdn.mmoui.com/minion/v$matchShort/Minion$version.exe"
+                "url": "https://cdn.mmoui.com/minion/v$matchShort/Minion$version.exe",
+                "hash": {
+                    "url": "https://minion.gg/?log",
+                    "find": "virustotal.com/en/file/$sha256"
+                }
             }
         }
     }
