@@ -13,12 +13,11 @@
         ]
     ],
     "pre_install": [
-        "extract_7zip \"$dir\\h2pc_data.bin\" -o\"$dir\"",
+        "Expand-7zipArchive \"$dir\\h2pc_data.bin\" \"$dir\" -Removal",
         "\"$dir\\temp\\vcredist_2013_x86.exe /q /norestart\"",
         "\"$dir\\temp\\directx.exe /q /T:'$dir\\temp\\directx'\"",
         "\"$dir\\temp\\directx\\DXSETUP.exe /silent\"",
         "(New-Object System.Net.WebClient).DownloadFile(\"https://cartographer.online/latest/xlive.dll\", \"$dir\\xlive.dll\")",
-        "Remove-Item -LiteralPath \"$dir\\h2pc_data.bin\" -Force",
         "Remove-Item -LiteralPath \"$dir\\h2pc_setup_1.7.exe\" -Force",
         "Remove-Item -LiteralPath \"$dir\\temp\" -Force -Recurse"
     ],

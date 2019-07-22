@@ -9,7 +9,7 @@
     "url": "https://elderscrolls-a.akamaihd.net/products/BNA_Launcher/Install_ESO.exe#/dl.7z",
     "extract_dir": "InstallerData\\Disk1\\InstData",
     "pre_install": [
-        "extract_7zip \"$dir\\Resource1.zip\" \"$dir\" 1",
+        "Expand-7zipArchive \"$dir\\Resource1.zip\" \"$dir\" -Removal",
         "Remove-Item -LiteralPath \"$dir\\MakeExecutableAction_zg_ia_sf.jar\" -Force",
         "Remove-Item -LiteralPath \"$dir\\uninstallerCustomCode.jar\" -Force",
         "Remove-Item -LiteralPath \"$dir\\MediaId.properties\" -Force",
