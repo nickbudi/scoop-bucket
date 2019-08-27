@@ -1,11 +1,11 @@
 {
     "homepage": "https://www.mersenne.org/download/",
     "license": "https://www.mersenne.org/legal/#EULA",
-    "version": "298b5",
+    "version": "298b6",
     "architecture": {
         "64bit": {
-            "url": "http://www.mersenne.org/ftp_root/gimps/p95v298b5.win64.zip",
-            "hash": "c4d15bae853894ab67feb72657f88042cdb5b1338ebbe70e5df233884ec78d06"
+            "url": "http://www.mersenne.org/ftp_root/gimps/p95v298b6.win64.zip",
+            "hash": "cde7e4c490f060e303a58d3cdc85b6e47b9133e84381ef5805651a1c6ab3fb3d"
         }
     },
     "bin": [
