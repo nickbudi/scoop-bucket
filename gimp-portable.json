@@ -1,9 +1,9 @@
 {
     "homepage": "https://www.gimp.org/",
     "license": "GPL-3.0-only",
-    "version": "2.10.14",
-    "url": "https://sourceforge.net/projects/portableapps/files/GIMP%20Portable/GIMPPortable_2.10.14.paf.exe#/dl.7z",
-    "hash": "sha1:96e759eb53f3adaba1da56fcec78b92df10f0523",
+    "version": "2.10.14_Rev_2",
+    "url": "https://sourceforge.net/projects/portableapps/files/GIMP%20Portable/GIMPPortable_2.10.14_Rev_2.paf.exe#/dl.7z",
+    "hash": "sha1:c9be8f045f1e5542cc3809ba4addfeaf49a41824",
     "bin": [
         [
             "GIMPPortable.exe",
