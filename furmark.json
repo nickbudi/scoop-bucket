@@ -1,9 +1,9 @@
 {
     "homepage": "https://geeks3d.com/furmark/",
-    "version": "1.20.8.0",
+    "version": "1.20.9.0",
     "license": "Freeware",
-    "url": "https://www.geeks3d.com/downloads/2019/FurMark_1.20.8.0_Setup.exe",
-    "hash": "0b212989d8a3aa01da79ff45f03701aa0bb7ba08f2b0329d235320ff2635afb8",
+    "url": "https://www.geeks3d.com/downloads/2019/FurMark_1.20.9.0_Setup.exe",
+    "hash": "16bea29f7e618ce71442586a3c71be580617ebfb8428bdb79d8b910b6d06416f",
     "innosetup": true,
     "bin": "FurMark.exe",
     "shortcuts": [
