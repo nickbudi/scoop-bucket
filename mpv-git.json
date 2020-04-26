@@ -2,15 +2,15 @@
     "homepage": "https://mpv.io/",
     "description": "Video player based on MPlayer/mplayer2 (builds by shinchiro)",
     "license": "GPL-2.0-or-later|LGPL-2.1-or-later",
-    "version": "20200419",
+    "version": "20200426",
     "architecture": {
         "64bit": {
-            "url": "https://sourceforge.net/projects/mpv-player-windows/files/64bit/mpv-x86_64-20200419-git-a09c769.7z",
-            "hash": "sha1:553d048d9538758d6935b4823b0736c27c70dae9"
+            "url": "https://sourceforge.net/projects/mpv-player-windows/files/64bit/mpv-x86_64-20200426-git-640db1e.7z",
+            "hash": "sha1:32c5ae51104689b44a135db502e6837027548151"
         },
         "32bit": {
-            "url": "https://sourceforge.net/projects/mpv-player-windows/files/32bit/mpv-i686-20200419-git-a09c769.7z",
-            "hash": "sha1:db4e58263a1cac149268cabdc43e09657a1811d5"
+            "url": "https://sourceforge.net/projects/mpv-player-windows/files/32bit/mpv-i686-20200426-git-640db1e.7z",
+            "hash": "sha1:c046edce2464bc3b368fb1072f65a078830dacb6"
         }
     },
     "bin": "mpv.exe",
