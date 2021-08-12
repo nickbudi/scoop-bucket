@@ -1,9 +1,9 @@
 {
     "homepage": "https://www.henrypp.org/product/simplewall",
     "license": "GPL-3.0-only",
-    "version": "3.3.5",
-    "url": "https://github.com/henrypp/simplewall/releases/download/v.3.3.5/simplewall-3.3.5-bin.zip#/dl.7z",
-    "hash": "3d8702e248cc7a5408744607eab7cc2f445eaa76fccaad02cc0273685ed21956",
+    "version": "3.4",
+    "url": "https://github.com/henrypp/simplewall/releases/download/v.3.4/simplewall-3.4-bin.zip#/dl.7z",
+    "hash": "98e53508485cca512958f9bc4b9541dcdc70b11e1aadd3c9a1b416270846f1bd",
     "architecture": {
         "64bit": {
             "extract_dir": "simplewall/64"
