@@ -2,16 +2,16 @@
     "##": "Persists 64-bit release only",
     "homepage": "http://www.vapoursynth.com/",
     "license": "OFL-1.1",
-    "version": "R56",
+    "version": "R57",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/vapoursynth/vapoursynth/releases/download/R56/VapourSynth64-Portable-R56.7z",
-            "hash": "51d02927d12485e44a1266d2c00575ac81f1c1cb8c581bf42f9051c6ddb3767c",
+            "url": "https://github.com/vapoursynth/vapoursynth/releases/download/R57/VapourSynth64-Portable-R57.7z",
+            "hash": "04a42f2ee604eb7370df98c9c9a85d4f7854e96250ab0356be85d81489710d20",
             "pre_install": "Remove-Item -LiteralPath \"$dir\\vapoursynth64\\plugins\" -Force -Recurse -ErrorAction SilentlyContinue"
         },
         "32bit": {
-            "url": "https://github.com/vapoursynth/vapoursynth/releases/download/R56/VapourSynth32-Portable-R56.7z",
-            "hash": "6676b41c07d2159090ed058791504f9e6873013c6de6dce7e25b07a29e09ae06",
+            "url": "https://github.com/vapoursynth/vapoursynth/releases/download/R57/VapourSynth32-Portable-R57.7z",
+            "hash": "f686a5517d648f99efac44f225e2c7922cbfb7e0593ac8a557b5a012d6f57e9a",
             "pre_install": "Remove-Item -LiteralPath \"$dir\\vapoursynth32\\plugins\" -Force -Recurse -ErrorAction SilentlyContinue"
         }
     },
